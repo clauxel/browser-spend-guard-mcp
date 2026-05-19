@@ -1,0 +1,26 @@
+{
+  "name": "com.clauxel.browserspendguard/browserspendguard-mcp",
+  "title": "BrowserSpend Guard MCP",
+  "description": "Paid remote MCP for AI browser purchase approval checks, spend thresholds, merchant evidence, risk notes, and audit receipts.",
+  "version": "1.0.0",
+  "websiteUrl": "https://browserspendguard.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/browser-spend-guard-mcp",
+  "serverCardUrl": "https://browserspendguard.clauxel.com/server-card.json",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://browserspendguard.clauxel.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token from the product website."
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "browser",
+    "spend-control",
+    "remote-mcp"
+  ]
+}
