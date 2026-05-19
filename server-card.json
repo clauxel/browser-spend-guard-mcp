@@ -1,0 +1,31 @@
+{
+  "name": "BrowserSpend Guard",
+  "domain": "browserspendguard.clauxel.com",
+  "type": "MCP",
+  "description": "Put approvals, spend caps, and receipts around AI browser checkout actions before an agent buys.",
+  "endpoint": "https://browserspendguard.clauxel.com/mcp",
+  "authentication": "Bearer token required for production use",
+  "tools": [
+    "evaluate_purchase",
+    "record_approval",
+    "list_budget_alerts",
+    "export_purchase_receipt"
+  ],
+  "pricing": [
+    {
+      "name": "Operator",
+      "monthlyUsd": 39,
+      "limit": "300 monitored actions"
+    },
+    {
+      "name": "Team",
+      "monthlyUsd": 99,
+      "limit": "3000 actions and approvals"
+    },
+    {
+      "name": "Company",
+      "monthlyUsd": 249,
+      "limit": "30000 actions and API"
+    }
+  ]
+}
