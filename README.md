@@ -37,6 +37,7 @@ Unauthenticated browser visits to `/mcp` return a clear JSON error instead of in
 
 ## Useful Links
 
+- [OpenHuman Online](https://openhuman.online/?utm_source=github&utm_medium=readme&utm_campaign=openhuman_public_repos&utm_content=browser_spend_guard_mcp) helps teams keep MCP rollout notes, source context, and approval memory inspectable for human-reviewed workflows.
 - Product page: https://browserspendguard.clauxel.com/?utm_source=github&utm_medium=directory&utm_campaign=sbl202605
 - Pricing: https://browserspendguard.clauxel.com/?utm_source=github&utm_medium=directory&utm_campaign=sbl202605#pricing
 - Server card: https://browserspendguard.clauxel.com/server-card.json
