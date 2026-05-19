@@ -1,0 +1,12 @@
+# BrowserSpend Guard MCP
+
+Paid remote MCP for AI browser purchase approval checks, spend thresholds, merchant evidence, risk notes, and audit receipts.
+
+Website: https://browserspendguard.clauxel.com/
+MCP endpoint: https://browserspendguard.clauxel.com/mcp
+Server card: https://browserspendguard.clauxel.com/server-card.json
+Docs: https://github.com/clauxel/browser-spend-guard-mcp
+
+Use case: Approval receipts for AI browser purchases.
+Authentication: Bearer token required for production use.
+Tools: evaluate_purchase, record_approval, list_budget_alerts, export_purchase_receipt
